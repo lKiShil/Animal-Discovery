@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The XYZ Shop</title>
+    <style>
+        body {font-family: Arial, sans-serif;}
+    </style>
+</head>
+<body>
+    <h1>The XYZ Shop</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New Publications</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    
+    <p>16, Motorway Road, Km2 Prawet, Bangkok 10250</p>
+    <p>Telephone: <a href="tel:+669071437627">+66-0971437627</a></p>
+    <p>Email: <a href="mailto:warnnersai2000@gmail.com">warnnersai2000@gmail.com</a></p>
+    
+    <h2>Location Map</h2>
+    <iframe class="map" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.1859352419704!2d100.60116831527869!3d13.715282990358619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e3b8c0a6c91%3A0x7f7f1b0e2b8e1e0c!2sStamford%20International%20University!5e0!3m2!1sen!2sth!4v1636121234567!5m2!1sen!2sth" 
+          allowfullscreen="" 
+          loading="lazy"></iframe>
+    
+    <p>The XYZ Shop</p>
+</body>
+</html>
