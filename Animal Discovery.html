@@ -1,169 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Discovery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e0f7fa;
-            color: #004d40;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #004d40;
-            color: #ffffff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            background-color: #00695c;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-
-        #search-bar {
-            margin: 20px auto;
-            max-width: 600px;
-            text-align: center;
-        }
-
-        #search-bar input[type="text"] {
-            width: 80%;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        #search-bar button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #004d40;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        #main-content {
-            padding: 20px;
-        }
-
-        .highlighted-articles,
-        .video-section,
-        .forum-section {
-            margin-bottom: 40px;
-        }
-
-        h2 {
-            border-bottom: 2px solid #004d40;
-            padding-bottom: 10px;
-        }
-
-        .category-section {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 30px;
-        }
-
-        .category-card {
-            background-color: #ffffff;
-            border: 1px solid #004d40;
-            padding: 20px;
-            width: 20%;
-            text-align: center;
-            border-radius: 10px;
-        }
-
-        .category-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        footer {
-            background-color: #004d40;
-            color:white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-
+<html>
+    <title>Animal Discovery - Home</title>
+    <link rel="stylesheet" href="styles.css">
 <body>
-
     <header>
         <h1>Animal Discovery</h1>
-        <p>Explore the World of Animals - Learn, Watch, and Discuss</p>
+        <p>Explore the World of Animals - Learn, Watch, and Engage</p>
     </header>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#categories">Categories</a>
-        <a href="#videos">Videos</a>
-        <a href="#forum">Forum</a>
+    <nav class="container-fluid">
+        <ul>
+            <li><a href="Animal Discovery.html">Home</a></li>
+            <li><a href="Categories.html">Categories</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li><a href="Promo.html" role="button">Sponsored</a></li>
+        </ul>
     </nav>
-
-    <div id="search-bar">
-        <input type="text" placeholder="Search for animals, habitats, or topics...">
-        <button>Search</button>
-    </div>
-
-    <div id="main-content">
-        <section class="highlighted-articles">
-            <h2>Featured Articles</h2>
-            <p>Learn about various animal species, their habitats, and conservation efforts.</p>
+    <main class="container">
+            <hgroup>
+                <h2>Welcome to Animal Discovery</h2>
+                <h3>Discover the fascinating world of animals!</h3>
+            </hgroup>
+            <p>Learn about different species, their habitats, and how we can help conserve their environments. Browse through our sections, watch educational videos, and engage with the community.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animal_diversity_b.png/300px-Animal_diversity_b.png" alt="Featured Animals">
+                <figcaption><a href="#" target="_blank">Explore More</a></figcaption>
+            </figure>
+        <section class="ad-section">
+            <h3>Advertise with Us!</h3>
+            <p>Reach a broad audience of animal enthusiasts by advertising here. <a href="promo.html">Contact us for details</a>.</p>
         </section>
-
-        <section id="categories" class="category-section">
-            <h2>Animal Categories</h2>
-            <div class="category-card">
-                <img src="https://via.placeholder.com/150" alt="Mammals">
-                <h3>Mammals</h3>
-            </div>
-            <div class="category-card">
-                <img src="https://via.placeholder.com/150" alt="Reptiles">
-                <h3>Reptiles</h3>
-            </div>
-            <div class="category-card">
-                <img src="https://via.placeholder.com/150" alt="Aquatic">
-                <h3>Aquatic Animals</h3>
-            </div>
-            <div class="category-card">
-                <img src="https://via.placeholder.com/150" alt="Birds">
-                <h3>Birds</h3>
-            </div>
-        </section>
-
-        <section id="videos" class="video-section">
-            <h2>Educational Videos</h2>
-            <p>Watch videos to learn more about the fascinating animal kingdom.</p>
-            <!-- Add video thumbnails here -->
-        </section>
-
-        <section id="forum" class="forum-section">
-            <h2>Discussion Forum</h2>
-            <p>Join the conversation and share your knowledge and experiences about animals.</p>
-        </section>
-    </div>
-
-    <footer>
+    </main>
+    <footer class="container">
+        <small><a href="animal discovery main.html">Home</a> • <a href="Categories.html">Categories</a> • <a href="Videos.html">Videos</a></small>
         <p>&copy; 2024 Animal Discovery. All rights reserved.</p>
     </footer>
-
 </body>
-
 </html>
